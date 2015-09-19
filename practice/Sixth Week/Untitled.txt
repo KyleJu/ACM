@@ -1,0 +1,12 @@
+1.index%8 to get the integer when index > 8!!
+3. diagnols - it is always square in coordinate system
+   read questions more carefully - mushroom comes out every second - so you can just iterate through and stop once you find enough mushrooms
+   y-y1/x-x1 = 1 or -1 - diagnols for square - think about math
+2. Question 2: Character.toString(input.charAt(k)) == j. You convert char into String 
+   - Learn to do test case and debugging 
+   - Char has unicode value
+	char c = 'a';
+	int i = c;
+	System.out.println(Integer.toHexString(i));
+   -    String l = String.valueOf(input.charAt(k));
+         if (l.equals("J")) - use equals!!!!!!!

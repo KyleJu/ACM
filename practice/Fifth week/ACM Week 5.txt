@@ -1,0 +1,9 @@
+ACM Week 5 
+Question 1 - used brute force method - convert all string into number at once
+             solution: covert individually and put them into array
+	   - inputting as string gives you more options
+	   - use print(), rather than println because println has space on the bottom
+	   - print is always preferred
+Better solution: create an counter for array from 0 - 9 int[9]. You don’t have to sort, all you need to do is to starting from the highest number and print them out.
+
+Question 2 
